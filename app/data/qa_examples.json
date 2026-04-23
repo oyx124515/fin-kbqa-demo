@@ -1,0 +1,3430 @@
+[
+    {
+        "id": "WebQTrn-2904_92cd88da247f06a2a19f25b5d45c8d9c",
+        "question": "Where does Lauren Conrad live that is also the place where the Hall of Fame induction was born?",
+        "thinking_process": "To determine the answer to the question, follow these steps:\n\n1. Begin by identifying the places associated with the query entity \"Lauren Conrad\" where she has lived. These places are represented by the answer entity \"x\". This establishes the possible locations that are relevant to her residency.\n\n2. Next, analyze the places represented by the answer entity \"x\" to find out if any of them are locations where individuals associated with the Hall of Fame induction, represented by the intermediate entity \"c\", were born. This step creates a link between the places Lauren Conrad has lived and the birthplace of relevant individuals.\n\n3. Finally, confirm whether the intermediate entity \"c\" is classified as being related to the query entity \"Hall of Fame induction\". This ensures we identify the specific individual and place associated with the Hall of Fame induction.\n\nThus, the answer entity \"x\" represents the place where Lauren Conrad lives that is also the same location where the Hall of Fame induction was born.",
+        "answers": [
+            "Los Angeles"
+        ],
+        "reasoning_path": [
+            [
+                "Lauren Conrad",
+                "people.person.places_lived-people.place_lived.location",
+                "Los Angeles"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "John Sciarra"
+            ],
+            [
+                "John Sciarra",
+                "type.object.type",
+                "Hall of fame induction"
+            ]
+        ],
+        "subgraph": [
+            [
+                "Holly Conrad",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.bought-type.object.type",
+                "Product Choice"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Courtney Hall"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Hallie Todd"
+            ],
+            [
+                "Lauren Conrad",
+                "book.author.works_written",
+                "Starstruck"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Dorrie Hall"
+            ],
+            [
+                "Lauren Conrad",
+                "celebrities.celebrity.celebrity_rivals-celebrities.rivalry.rival",
+                "Spencer Pratt"
+            ],
+            [
+                "Lauren Conrad",
+                "book.author.works_written",
+                "The Fame Game"
+            ],
+            [
+                "Lauren Conrad",
+                "type.object.type",
+                "Award Winner"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.bought-type.object.type",
+                "sww_base"
+            ],
+            [
+                "Lauren Conrad",
+                "people.person.gender",
+                "Female"
+            ],
+            [
+                "Lauren Conrad",
+                "people.person.place_of_birth",
+                "Laguna Beach"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Windlan Hall"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Hallie Meyers-Shyer"
+            ],
+            [
+                "Donna Hall",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Conrad W. Hall"
+            ],
+            [
+                "Gabriella Hall",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Lauren Conrad",
+                "people.person.places_lived-people.place_lived.location",
+                "Laguna Beach"
+            ],
+            [
+                "Lauren Conrad",
+                "celebrities.celebrity.celebrity_rivals-type.object.type",
+                "Rivalry"
+            ],
+            [
+                "Lauren Conrad",
+                "book.author.works_written",
+                "Sugar and Spice"
+            ],
+            [
+                "Lauren Conrad",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Celebrity"
+            ],
+            [
+                "Hallie Ephron",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Courtney Hall",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Lauren Conrad",
+                "people.person.parents",
+                "Jim Conrad"
+            ],
+            [
+                "Lauren Conrad",
+                "book.author.works_written",
+                "Lauren Conrad Beauty"
+            ],
+            [
+                "Lauren Conrad",
+                "celebrities.celebrity.celebrity_rivals-celebrities.rivalry.rival",
+                "Lauren Conrad"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.bought-base.popstra.product_choice.product",
+                "MINI"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Holly Conrad"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Hallie Ephron"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Anna Conrad"
+            ],
+            [
+                "Lauren Conrad",
+                "celebrities.celebrity.celebrity_rivals-celebrities.rivalry.rival",
+                "Heidi Montag"
+            ],
+            [
+                "Lauren Conrad",
+                "people.person.places_lived-people.place_lived.location",
+                "San Francisco"
+            ],
+            [
+                "Lauren Conrad",
+                "people.person.parents",
+                "Kathy Conrad"
+            ],
+            [
+                "Lauren Conrad",
+                "freebase.valuenotation.is_reviewed",
+                "Place of birth"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Hallie Mossett"
+            ],
+            [
+                "Lauren Conrad",
+                "book.author.works_written",
+                "L.A. Candy"
+            ],
+            [
+                "Conrad W. Hall",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Dorrie Hall",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.lived_with-base.popstra.lived_with.start_date",
+                "2006-06-01T00:00:00Z"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "LuAnn Haslam"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.lived_with-base.popstra.sww_base.source",
+                ""
+            ],
+            [
+                "Lauren Conrad",
+                "people.person.places_lived-people.place_lived.person",
+                "Lauren Conrad"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.lived_with-base.popstra.lived_with.participant",
+                "Lauren Conrad"
+            ],
+            [
+                "Lauren Conrad",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Celebrity"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Lauren Klena"
+            ],
+            [
+                "Lauren Conrad",
+                "people.person.nationality",
+                "United States of America"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Ellen Hall"
+            ],
+            [
+                "Laguna Beach",
+                "location.location.people_born_here",
+                "Lauren Conrad"
+            ],
+            [
+                "Lauren Klena",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Lauren Conrad",
+                "people.person.places_lived-people.place_lived.location",
+                "Los Angeles"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Cynthia Holcomb Hall"
+            ],
+            [
+                "Cynthia Holcomb Hall",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.hangout-base.popstra.hangout.business_location",
+                "Crown Bar"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Lauren Iungerich"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Gabriella Hall"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.bought-base.popstra.product_choice.product",
+                "BlackBerry"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.bought-base.popstra.product_choice.product",
+                "Audi"
+            ],
+            [
+                "Lauren Conrad",
+                "kg.object_profile.prominent_type",
+                "Celebrity"
+            ],
+            [
+                "Lauren Conrad",
+                "people.person.places_lived-type.object.type",
+                "Place lived"
+            ],
+            [
+                "Hallie Todd",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Lauren Iungerich",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "Donna Hall"
+            ],
+            [
+                "Windlan Hall",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Lauren Conrad",
+                "book.author.works_written",
+                "Sweet Little Lies"
+            ],
+            [
+                "Lauren Conrad",
+                "common.topic.notable_types",
+                "Celebrity"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.bought-base.popstra.product_choice.consumer",
+                "Lauren Conrad"
+            ],
+            [
+                "Anna Conrad",
+                "people.person.place_of_birth",
+                "Los Angeles"
+            ],
+            [
+                "Lauren Conrad",
+                "base.popstra.celebrity.bought-base.popstra.sww_base.source",
+                ""
+            ],
+            [
+                "Lauren Conrad",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Lauren Conrad",
+                "common.topic.notable_for-common.notable_for.object",
+                "Celebrity"
+            ],
+            [
+                "Los Angeles",
+                "location.location.people_born_here",
+                "John Sciarra"
+            ],
+            [
+                "John Sciarra",
+                "type.object.type",
+                "Hall of fame induction"
+            ]
+        ]
+    },
+    {
+        "id": "WebQTest-1785_4ae1a0927e13f623451a04265c29dc4e",
+        "question": "What movie with a prequel called \"Beyond Witch Mountain\" did Kim Richards star in?",
+        "thinking_process": "To determine the answer to the question, follow these steps:\n\n1. Start by identifying the movies represented by the answer entity \"x\" in which the query entity, Kim Richards, has acted. This establishes the set of films associated with Kim Richards as an actress.\n\n2. Next, ascertain which of these movies, represented by the answer entity \"x\", has a prequel titled the query entity \"Beyond Witch Mountain\". This step ensures that the specific movie linked to the mentioned prequel is determined.\n\nThus, the answer entity \"x\" represents the movie that Kim Richards starred in and is associated with the prequel \"Beyond Witch Mountain\".",
+        "answers": [
+            "Race to Witch Mountain"
+        ],
+        "reasoning_path": [
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "Race to Witch Mountain"
+            ],
+            [
+                "Race to Witch Mountain",
+                "film.film.prequel",
+                "Beyond Witch Mountain"
+            ]
+        ],
+        "subgraph": [
+            [
+                "Kim Richards",
+                "common.topic.notable_types",
+                "TV Personality"
+            ],
+            [
+                "Tina",
+                "film.film_character.portrayed_in_films-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "Escape to Witch Mountain"
+            ],
+            [
+                "Black Snake Moan",
+                "film.film.starring-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Nanny and the Professor",
+                "film.film.starring-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "people.person.children",
+                "Chad Davis"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "type.object.type",
+                "Abstract"
+            ],
+            [
+                "Sandy",
+                "film.film_character.portrayed_in_films-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "people.person.sibling_s-people.sibling_relationship.sibling",
+                "Kathy Hilton"
+            ],
+            [
+                "Return from Witch Mountain",
+                "film.film.starring-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "imdb.topic.title_id",
+                "tt0249397"
+            ],
+            [
+                "Kirk Cameron",
+                "film.actor.film-film.performance.film",
+                "Beyond Witch Mountain"
+            ],
+            [
+                "The Watcher in the Woods",
+                "film.film.starring-film.performance.actor",
+                "Kyle Richards"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.character",
+                "Tina"
+            ],
+            [
+                "Kim Richards",
+                "kg.object_profile.prominent_type",
+                "TV Personality"
+            ],
+            [
+                "Kim Richards",
+                "people.person.sibling_s-people.sibling_relationship.sibling",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "people.person.gender",
+                "Female"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Return from Witch Mountain",
+                "film.film.sequel",
+                "Beyond Witch Mountain"
+            ],
+            [
+                "Escape to Witch Mountain",
+                "imdb.topic.title_id",
+                "tt0072951"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.starring-film.performance.actor",
+                "Efrem Zimbalist, Jr."
+            ],
+            [
+                "Escape to Witch Mountain",
+                "film.film.sequel",
+                "Return from Witch Mountain"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "The Car"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.language",
+                "English Language"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "type.object.type",
+                "Agent"
+            ],
+            [
+                "Kim Richards",
+                "people.person.parents",
+                "Ken Richards"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "common.topic.notable_types",
+                "Film"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.runtime-type.object.type",
+                "Film cut"
+            ],
+            [
+                "Kim Richards",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Actor"
+            ],
+            [
+                "Tuff Turf",
+                "film.film.starring-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "people.person.profession",
+                "Actor"
+            ],
+            [
+                "Kim Richards",
+                "imdb.topic.name_id",
+                "nm0001668"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "Nanny and the Professor"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "Black Snake Moan"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.character",
+                "Tracy"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.directed_by",
+                "Robert Day"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.runtime-film.film_cut.film",
+                "Beyond Witch Mountain"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "Raid on Entebbe"
+            ],
+            [
+                "Race to Witch Mountain",
+                "kg.object_profile.prominent_type",
+                "Film"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.starring-type.object.type",
+                "Film performance"
+            ],
+            [
+                "Kim Richards",
+                "people.person.sibling_s-people.sibling_relationship.sibling",
+                "Kyle Richards"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.starring-film.performance.actor",
+                "Eddie Albert"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "Race to Witch Mountain"
+            ],
+            [
+                "Tracey Gold",
+                "film.actor.film-film.performance.film",
+                "Beyond Witch Mountain"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Science Fiction Film"
+            ],
+            [
+                "Kim Richards",
+                "tv.tv_actor.starring_roles-tv.regular_tv_appearance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "common.topic.notable_for-common.notable_for.object",
+                "Actor"
+            ],
+            [
+                "Return from Witch Mountain",
+                "film.film.prequel",
+                "Escape to Witch Mountain"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "Devil Dog: The Hound of Hell"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.genre",
+                "Fantasy"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.starring-film.performance.actor",
+                "Kirk Cameron"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.initial_release_date",
+                "1982-02-20"
+            ],
+            [
+                "Escape to Witch Mountain",
+                "film.film.starring-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "base.chickipedia.topic.chickipedia_id",
+                "kim-richards"
+            ],
+            [
+                "Kim Richards",
+                "people.person.children",
+                "Kimberly Jackson"
+            ],
+            [
+                "Kim Richards",
+                "people.person.sibling_s-type.object.type",
+                "Sibling Relationship"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.runtime-film.film_cut.runtime",
+                "60.0"
+            ],
+            [
+                "Return from Witch Mountain",
+                "film.film.traileraddict_id",
+                "return-from-witch-mountain"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.character",
+                "Sandy"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "Return from Witch Mountain"
+            ],
+            [
+                "Efrem Zimbalist, Jr.",
+                "film.actor.film-film.performance.film",
+                "Beyond Witch Mountain"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.sequel",
+                "Race to Witch Mountain"
+            ],
+            [
+                "Kim Richards",
+                "people.person.parents",
+                "Kathleen Richards"
+            ],
+            [
+                "Race to Witch Mountain",
+                "film.film.traileraddict_id",
+                "race-to-witch-mountain"
+            ],
+            [
+                "Kyle Richards",
+                "film.actor.film-film.performance.film",
+                "Escape to Witch Mountain"
+            ],
+            [
+                "Return from Witch Mountain",
+                "film.film.starring-film.performance.actor",
+                "Richard Bakalyan"
+            ],
+            [
+                "Race to Witch Mountain",
+                "film.film.starring-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-type.object.type",
+                "Film performance"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.prequel",
+                "Return from Witch Mountain"
+            ],
+            [
+                "Escape to Witch Mountain",
+                "film.film.starring-film.performance.actor",
+                "Kyle Richards"
+            ],
+            [
+                "Race to Witch Mountain",
+                "film.film.prequel",
+                "Beyond Witch Mountain"
+            ],
+            [
+                "Kim Richards",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Actor"
+            ],
+            [
+                "Kim Richards",
+                "people.person.place_of_birth",
+                "Mineola"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "No Deposit, No Return"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Science Fiction"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.starring-film.performance.character",
+                "Boy"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.starring-film.performance.film",
+                "Beyond Witch Mountain"
+            ],
+            [
+                "Prudence",
+                "tv.tv_character.appeared_in_tv_program-tv.regular_tv_appearance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.genre",
+                "Science Fiction"
+            ],
+            [
+                "Return from Witch Mountain",
+                "imdb.topic.title_id",
+                "tt0078158"
+            ],
+            [
+                "Race to Witch Mountain",
+                "imdb.topic.title_id",
+                "tt1075417"
+            ],
+            [
+                "Kim Richards",
+                "people.person.nationality",
+                "United States of America"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "kg.object_profile.prominent_type",
+                "Film"
+            ],
+            [
+                "Kyle Richards",
+                "imdb.topic.name_id",
+                "nm0724202"
+            ],
+            [
+                "Race to Witch Mountain",
+                "film.film.starring-film.performance.actor",
+                "Beth Kennedy"
+            ],
+            [
+                "Raid on Entebbe",
+                "film.film.starring-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "Tuff Turf"
+            ],
+            [
+                "Kim Richards",
+                "people.person.profession",
+                "Presenter"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "common.topic.notable_for-common.notable_for.object",
+                "Science Fiction"
+            ],
+            [
+                "Kim Richards",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.starring-film.performance.actor",
+                "Tracey Gold"
+            ],
+            [
+                "No Deposit, No Return",
+                "film.film.starring-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "The Car",
+                "film.film.starring-film.performance.actor",
+                "Kim Richards"
+            ],
+            [
+                "Kim Richards",
+                "people.person.children",
+                "Brooke Brinson"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.genre",
+                "Family"
+            ],
+            [
+                "Beyond Witch Mountain",
+                "film.film.country",
+                "United States of America"
+            ],
+            [
+                "Kim Richards",
+                "film.actor.film-film.performance.film",
+                "The Whiz Kid and the Mystery at Riverton"
+            ],
+            [
+                "Kim Richards",
+                "people.person.children",
+                "Whitney Davis"
+            ],
+            [
+                "The Whiz Kid and the Mystery at Riverton",
+                "film.film.starring-film.performance.actor",
+                "Kim Richards"
+            ]
+        ]
+    },
+    {
+        "id": "WebQTest-1119_8c41904eaef9fce2d95afd27eb9150ec",
+        "question": "What organization led by Bentley B. Rayburn?",
+        "thinking_process": "To determine the answer to the question, follow these steps:\n\n1. Begin by identifying the organization represented by the intermediate entity \"c,\" which has a leadership connection with the person named Bentley B. Rayburn, who is the query entity. This establishes that Bentley B. Rayburn is a leader of the organization represented by intermediate entity \"c.\"\n\n2. Next, determine the notable type of the organization represented by intermediate entity \"c.\" The notable type is identified as the answer entity \"x,\" which classifies or describes the type of organization in question.\n\nThus, the answer entity \"x\" represents the notable type of the organization led by Bentley B. Rayburn.",
+        "answers": [
+            "College/University"
+        ],
+        "reasoning_path": [
+            [
+                "Colorado Technical University",
+                "organization.organization.leadership-organization.leadership.person",
+                "Bentley B. Rayburn"
+            ],
+            [
+                "Colorado Technical University",
+                "common.topic.notable_types",
+                "College/University"
+            ]
+        ],
+        "subgraph": [
+            [
+                "Bentley Curran",
+                "organization.organization.leadership-organization.leadership.person",
+                "Bentley Curran"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "common.topic.notable_types",
+                "Organization leader"
+            ],
+            [
+                "Rayburn Trading Company",
+                "organization.organization.leadership-type.object.type",
+                "Organization leadership"
+            ],
+            [
+                "Raymond F Byrne",
+                "organization.organization.leadership-organization.leadership.as_of_date",
+                "2009"
+            ],
+            [
+                "Martin Raymond Baker",
+                "organization.organization.leadership-organization.leadership.organization",
+                "Martin Raymond Baker"
+            ],
+            [
+                "Raymond F Byrne",
+                "organization.organization.leadership-organization.leadership.person",
+                "Raymond F Byrne"
+            ],
+            [
+                "President",
+                "organization.role.leaders-organization.leadership.person",
+                "Bentley B. Rayburn"
+            ],
+            [
+                "Raymond B Kummer",
+                "organization.organization.leadership-organization.leadership.organization",
+                "Raymond B Kummer"
+            ],
+            [
+                "Gregory F. Rayburn",
+                "common.topic.notable_types",
+                "Organization leader"
+            ],
+            [
+                "Raymond F. Bentele",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Organization leader"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Organisation leader"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "common.topic.notable_for-common.notable_for.object",
+                "Organization leader"
+            ],
+            [
+                "David B Rayburn",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Organization leader"
+            ],
+            [
+                "Bentley University",
+                "organization.organization.leadership-organization.leadership.role",
+                "President"
+            ],
+            [
+                "Rayner",
+                "organization.organization.leadership-type.object.type",
+                "Organization leadership"
+            ],
+            [
+                "Bentley Curran",
+                "organization.organization.leadership-type.object.type",
+                "Organization leadership"
+            ],
+            [
+                "President",
+                "organization.role.leaders-organization.leadership.person",
+                "Ray Bowen"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "business.board_member.leader_of-organization.leadership.person",
+                "Bentley B. Rayburn"
+            ],
+            [
+                "Raymond B Kummer",
+                "organization.organization.leadership-type.object.type",
+                "Organization leadership"
+            ],
+            [
+                "Gregory F. Rayburn",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Organisation leader"
+            ],
+            [
+                "Raymond F. Bentele",
+                "common.topic.notable_types",
+                "Organization leader"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "type.object.type",
+                "Topic"
+            ],
+            [
+                "David B Rayburn",
+                "common.topic.notable_types",
+                "Organization leader"
+            ],
+            [
+                "Raymond F. Bentele",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Organisation leader"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "type.object.type",
+                "Agent"
+            ],
+            [
+                "Raymond B Kummer",
+                "organization.organization.leadership-organization.leadership.person",
+                "Raymond B Kummer"
+            ],
+            [
+                "Raymond F Byrne",
+                "organization.organization.leadership-organization.leadership.organization",
+                "Raymond F Byrne"
+            ],
+            [
+                "Gregory F. Rayburn",
+                "common.topic.notable_for-common.notable_for.object",
+                "Organization leader"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "business.board_member.leader_of-organization.leadership.role",
+                "President"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "type.object.type",
+                "Organization leader"
+            ],
+            [
+                "Bentley Curran",
+                "organization.organization.leadership-organization.leadership.organization",
+                "Bentley Curran"
+            ],
+            [
+                "Rayner",
+                "organization.organization.leadership-organization.leadership.from",
+                "2012-04-05"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Organization leader"
+            ],
+            [
+                "David B Rayburn",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Organisation leader"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "kg.object_profile.prominent_type",
+                "Organization leader"
+            ],
+            [
+                "Martin Raymond Baker",
+                "organization.organization.leadership-type.object.type",
+                "Organization leadership"
+            ],
+            [
+                "Gary Ray Bentzinger",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Organization leader"
+            ],
+            [
+                "Colorado Technical University",
+                "common.topic.notable_for-common.notable_for.object",
+                "College/University"
+            ],
+            [
+                "Gregory F. Rayburn",
+                "type.object.type",
+                "Organization leader"
+            ],
+            [
+                "Rayburn Trading Company",
+                "organization.organization.leadership-organization.leadership.organization",
+                "Rayburn Trading Company"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Raymond Bitar",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Organization leader"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "business.board_member.leader_of-type.object.type",
+                "Organization leadership"
+            ],
+            [
+                "Ray Leonard",
+                "organization.organization.leadership-type.object.type",
+                "Organization leadership"
+            ],
+            [
+                "Raymond F. Bentele",
+                "type.object.type",
+                "Organization leader"
+            ],
+            [
+                "Gregory F. Rayburn",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Organization leader"
+            ],
+            [
+                "Raymond M Bukaty",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Organization leader"
+            ],
+            [
+                "Rayner",
+                "organization.organization.leadership-organization.leadership.organization",
+                "Rayner"
+            ],
+            [
+                "David B Rayburn",
+                "common.topic.notable_for-common.notable_for.object",
+                "Organization leader"
+            ],
+            [
+                "Colorado Technical University",
+                "organization.organization.leadership-organization.leadership.person",
+                "Bentley B. Rayburn"
+            ],
+            [
+                "Raymond F Byrne",
+                "organization.organization.leadership-type.object.type",
+                "Organization leadership"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "business.board_member.leader_of-organization.leadership.title",
+                "President"
+            ],
+            [
+                "Gregory F. Rayburn",
+                "business.board_member.leader_of-type.object.type",
+                "Organization leadership"
+            ],
+            [
+                "Bentley B. Rayburn",
+                "business.board_member.leader_of-organization.leadership.organization",
+                "Colorado Technical University"
+            ],
+            [
+                "Colorado Technical University",
+                "common.topic.notable_types",
+                "College/University"
+            ]
+        ]
+    },
+    {
+        "id": "WebQTrn-436_04b1f75e2e7c49a6d6b92139f6dd5a79",
+        "question": "In a fantastic movie about the Boy who Lived, featuring David Brett, who played Dumbledore?",
+        "thinking_process": "To determine the answer to the question, follow these steps:\n\n1. Begin by identifying the movie represented by the intermediate entity \"c\". This movie is one in which an actor, represented by the query entity \"David Brett\", played a role. This establishes that intermediate entity \"c\" corresponds to a film featuring David Brett.\n   \n2. Next, examine the same movie represented by the intermediate entity \"c\" to identify another actor, represented by the answer entity \"x\", associated with it. This establishes that the actor represented by the answer entity \"x\" also starred in this movie.\n\n3. Finally, confirm that in the movie represented by the intermediate entity \"c\", the actor, represented by the answer entity \"x\", portrayed the character represented by the query entity \"Professor Albus Dumbledore\". This validates that the actor in question played Dumbledore in this movie.\n\nThus, the answer entity \"x\" represents the actor who played Dumbledore in the movie featuring David Brett.",
+        "answers": [
+            "Richard Harris"
+        ],
+        "reasoning_path": [
+            [
+                "Harry Potter and the Philosopher's Stone",
+                "film.film.starring-film.performance.actor",
+                "David Brett"
+            ],
+            [
+                "Harry Potter and the Philosopher's Stone",
+                "film.film.starring-film.performance.actor",
+                "Richard Harris"
+            ],
+            [
+                "Harry Potter and the Philosopher's Stone",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ]
+        ],
+        "subgraph": [
+            [
+                "David Brett",
+                "film.actor.film-type.object.type",
+                "Film performance"
+            ],
+            [
+                "Epic Movie",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "David Brett",
+                "people.person.profession",
+                "Singer"
+            ],
+            [
+                "David Brett",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.special_performance_type",
+                "Uncredited"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Goblet of Fire"
+            ],
+            [
+                "David Brett",
+                "common.topic.notable_for-common.notable_for.object",
+                "Actor"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Forbidden Journey"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "David Brett",
+                "music.composer.compositions",
+                "Dance the Night Away"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "type.object.type",
+                "Abstract"
+            ],
+            [
+                "Harry Potter and the Deathly Hallows - Part I",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Harry Potter and the Deathly Hallows – Part 2",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "David Brett",
+                "people.person.profession",
+                "Music Arranger"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Deathly Hallows – Part 2"
+            ],
+            [
+                "Harry Potter and the Chamber of Secrets",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Harry Potter and the Order of the Phoenix",
+                "film.film.starring-film.performance.character",
+                "Aberforth Dumbledore"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.actor",
+                "Dane Farwell"
+            ],
+            [
+                "Harry Potter and the Philosopher's Stone",
+                "film.film.starring-film.performance.actor",
+                "David Bradley"
+            ],
+            [
+                "Aberforth Dumbledore",
+                "film.film_character.portrayed_in_films-type.object.type",
+                "Film performance"
+            ],
+            [
+                "Jim McManus",
+                "film.actor.film-film.performance.character",
+                "Aberforth Dumbledore"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "imdb.topic.character_id",
+                "ch0000998"
+            ],
+            [
+                "David Brett",
+                "type.object.type",
+                "Agent"
+            ],
+            [
+                "David Brett",
+                "music.group_member.membership-music.group_membership.end",
+                "1990"
+            ],
+            [
+                "Aberforth Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.actor",
+                "Ciarán Hinds"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.actor",
+                "Richard Harris"
+            ],
+            [
+                "David Brett",
+                "common.topic.notable_types",
+                "Composer"
+            ],
+            [
+                "David Brett",
+                "music.group_member.membership-music.group_membership.member",
+                "David Brett"
+            ],
+            [
+                "David Brett",
+                "music.group_member.membership-type.object.type",
+                "Musical Group Membership"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "fictional_universe.fictional_character.gender",
+                "Male"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "fictional_universe.fictional_character.occupation",
+                "Teacher"
+            ],
+            [
+                "David Bradley",
+                "film.actor.film-film.performance.film",
+                "Harry Potter and the Half-Blood Prince"
+            ],
+            [
+                "David Brett",
+                "music.group_member.membership-music.group_membership.group",
+                "The Flying Pickets"
+            ],
+            [
+                "Harry Potter and the Forbidden Journey",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "common.topic.notable_for-common.notable_for.object",
+                "Film character"
+            ],
+            [
+                "David Brett",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Actor"
+            ],
+            [
+                "David Brett",
+                "freebase.valuenotation.is_reviewed",
+                "Place of birth"
+            ],
+            [
+                "David Brett",
+                "freebase.valuenotation.has_value",
+                "Date of birth"
+            ],
+            [
+                "David Bradley",
+                "film.actor.film-film.performance.film",
+                "Harry Potter and the Philosopher's Stone"
+            ],
+            [
+                "Harry Potter and the Half-Blood Prince",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "fictional_universe.fictional_character.occupation",
+                "Headmaster"
+            ],
+            [
+                "Harry Potter and the Prisoner of Azkaban",
+                "film.film.starring-film.performance.actor",
+                "David Bradley"
+            ],
+            [
+                "Aberforth Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Order of the Phoenix"
+            ],
+            [
+                "Toby Regbo",
+                "film.actor.film-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Half-Blood Prince"
+            ],
+            [
+                "David Brett",
+                "film.actor.film-film.performance.film",
+                "Harry Potter and the Philosopher's Stone"
+            ],
+            [
+                "Aberforth Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.character",
+                "Aberforth Dumbledore"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.actor",
+                "Toby Regbo"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-type.object.type",
+                "Film performance"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Philosopher's Stone"
+            ],
+            [
+                "Aberforth Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.actor",
+                "Jim McManus"
+            ],
+            [
+                "Harry Potter and the Philosopher's Stone",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Harry Potter and the Deathly Hallows – Part 2",
+                "film.film.starring-film.performance.character",
+                "Aberforth Dumbledore"
+            ],
+            [
+                "Aberforth Dumbledore",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Film character"
+            ],
+            [
+                "David Bradley",
+                "film.actor.film-film.performance.film",
+                "Harry Potter and the Order of the Phoenix"
+            ],
+            [
+                "Michael Gambon",
+                "film.actor.film-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "David Bradley",
+                "film.actor.film-film.performance.film",
+                "Harry Potter and the Prisoner of Azkaban"
+            ],
+            [
+                "David Brett",
+                "film.actor.film-film.performance.actor",
+                "David Brett"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.actor",
+                "Michael Gambon"
+            ],
+            [
+                "David Brett",
+                "imdb.topic.name_id",
+                "nm1693271"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Epic Movie"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "fictional_universe.fictional_character.has_possessed",
+                "Marvolo Gaunt's Ring"
+            ],
+            [
+                "David Brett",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Actor"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Film character"
+            ],
+            [
+                "David Bradley",
+                "film.actor.film-film.performance.film",
+                "Harry Potter and the Chamber of Secrets"
+            ],
+            [
+                "David Brett",
+                "people.person.profession",
+                "Actor"
+            ],
+            [
+                "Harry Potter and the Goblet of Fire",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Ciarán Hinds",
+                "film.actor.film-film.performance.character",
+                "Aberforth Dumbledore"
+            ],
+            [
+                "Dane Farwell",
+                "film.actor.film-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Harry Potter and the Order of the Phoenix",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "fictional_universe.fictional_character.appears_in_these_fictional_universes",
+                "Harry Potter"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Order of the Phoenix"
+            ],
+            [
+                "David Brett",
+                "freebase.valuenotation.is_reviewed",
+                "Gender"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Prisoner of Azkaban"
+            ],
+            [
+                "Harry Potter and the Chamber of Secrets",
+                "film.film.starring-film.performance.actor",
+                "David Bradley"
+            ],
+            [
+                "David Brett",
+                "people.person.gender",
+                "Male"
+            ],
+            [
+                "David Brett",
+                "music.group_member.membership-music.group_membership.start",
+                "1982"
+            ],
+            [
+                "David Brett",
+                "people.person.place_of_birth",
+                "Coalville"
+            ],
+            [
+                "David Brett",
+                "kg.object_profile.prominent_type",
+                "Composer"
+            ],
+            [
+                "David Brett",
+                "film.actor.film-film.performance.character",
+                "Dedalus Diggle"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "common.topic.notable_types",
+                "Film character"
+            ],
+            [
+                "David Brett",
+                "freebase.valuenotation.is_reviewed",
+                "Country of nationality"
+            ],
+            [
+                "Harry Potter and the Prisoner of Azkaban",
+                "film.film.starring-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Chamber of Secrets"
+            ],
+            [
+                "Aberforth Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Deathly Hallows – Part 2"
+            ],
+            [
+                "David Brett",
+                "people.person.nationality",
+                "England"
+            ],
+            [
+                "Uncredited",
+                "film.special_film_performance_type.film_performance_type-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "fictional_universe.fictional_character.has_possessed",
+                "Elder Wand"
+            ],
+            [
+                "Richard Harris",
+                "film.actor.film-film.performance.character",
+                "Professor Albus Dumbledore"
+            ],
+            [
+                "David Bradley",
+                "film.actor.film-film.performance.film",
+                "Harry Potter and the Goblet of Fire"
+            ],
+            [
+                "Harry Potter and the Philosopher's Stone",
+                "film.film.starring-film.performance.actor",
+                "David Brett"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "film.film_character.portrayed_in_films-film.performance.film",
+                "Harry Potter and the Deathly Hallows - Part I"
+            ],
+            [
+                "Dedalus Diggle",
+                "film.film_character.portrayed_in_films-film.performance.actor",
+                "David Brett"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "fictional_universe.fictional_character.character_created_by",
+                "J. K. Rowling"
+            ],
+            [
+                "David Brett",
+                "music.group_member.membership-music.group_membership.role",
+                "Vocals"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Film character"
+            ],
+            [
+                "Professor Albus Dumbledore",
+                "kg.object_profile.prominent_type",
+                "Film character"
+            ],
+            [
+                "David Brett",
+                "film.actor.film-film.performance.special_performance_type",
+                "Uncredited"
+            ],
+            [
+                "David Brett",
+                "music.lyricist.lyrics_written",
+                "Dance the Night Away"
+            ],
+            [
+                "Harry Potter and the Philosopher's Stone",
+                "film.film.starring-film.performance.actor",
+                "Richard Harris"
+            ]
+        ]
+    },
+    {
+        "id": "WebQTest-837_00790334f21ccc3d75415a56920dc691",
+        "question": "What year did the Baltimore Ravens win the Superbowl against the New York Giants?",
+        "thinking_process": "To determine the answer to the question, follow these steps:\n\n1. Begin by identifying the championship events associated with the query entity \"Baltimore Ravens\". These events are represented by the answer entity \"x\". This establishes the specific championships in which the Baltimore Ravens participated.\n\n2. Next, identify which championship event, represented by the answer entity \"x\", is a \"Super Bowl\". This ensures that the focus is specifically on the Super Bowl championship events linked to the Baltimore Ravens.\n\n3. Finally, confirm which Super Bowl championship event, represented by the answer entity \"x\", had the query entity \"New York Giants\" as the runner-up. This narrows down the result to the specific Super Bowl in which the Baltimore Ravens won against the New York Giants.\n\nThus, the answer entity \"x\" represents the year when the Baltimore Ravens won the Super Bowl against the New York Giants.",
+        "answers": [
+            "Super Bowl XXXV"
+        ],
+        "reasoning_path": [
+            [
+                "Baltimore Ravens",
+                "sports.sports_team.championships",
+                "Super Bowl XXXV"
+            ],
+            [
+                "Super Bowl XXXV",
+                "sports.sports_championship_event.championship",
+                "Super Bowl"
+            ],
+            [
+                "Super Bowl XXXV",
+                "sports.sports_championship_event.runner_up",
+                "New York Giants"
+            ]
+        ],
+        "subgraph": [
+            [
+                "Super Bowl",
+                "sports.sports_championship.events",
+                "Super Bowl XXXV"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XXVII"
+            ],
+            [
+                "Baltimore Ravens",
+                "sports.sports_team.championships",
+                "2001 AFC Championship Game"
+            ],
+            [
+                "Baltimore Ravens",
+                "film.person_or_entity_appearing_in_film.films-film.personal_film_appearance.film",
+                "NFL Greatest Super Bowl Moments: I-XLI"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.receiving-american_football.game_receiving_statistics.touchdowns",
+                "0"
+            ],
+            [
+                "Baltimore Ravens at Miami Dolphins, 2009-01-04",
+                "american_football.football_game.season",
+                "2008 NFL season"
+            ],
+            [
+                "Super Bowl",
+                "freebase.valuenotation.is_reviewed",
+                "Current frequency"
+            ],
+            [
+                "2001 AFC Championship Game",
+                "sports.sports_championship_event.champion",
+                "Baltimore Ravens"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.receiving-american_football.game_receiving_statistics.team",
+                "Baltimore Ravens"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.receiving-american_football.game_receiving_statistics.yards",
+                "54.0"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "Super Bowl XLVI"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "2001 NFC Championship Game"
+            ],
+            [
+                "2013 AFC Championship Game",
+                "sports.sports_championship_event.champion",
+                "Baltimore Ravens"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XXXIV"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "Super Bowl XLII"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at New York Giants, 2008-11-16"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XXII"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XXXIII"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "1927 NFL Championship Game"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at Green Bay Packers, 2009-12-07"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.passing-american_football.game_passing_statistics.touchdowns",
+                "1"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XIII"
+            ],
+            [
+                "Baltimore Ravens at Oakland Raiders, 2010-01-03",
+                "american_football.football_game.away_team",
+                "Baltimore Ravens"
+            ],
+            [
+                "NFL Greatest Super Bowl Moments: I-XLI",
+                "film.film.personal_appearances-film.personal_film_appearance.person",
+                "Baltimore Ravens"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.home_team",
+                "New York Giants"
+            ],
+            [
+                "Baltimore Ravens at Tennessee Titans, 2009-01-10",
+                "american_football.football_game.season",
+                "2008 NFL season"
+            ],
+            [
+                "Baltimore Ravens at New England Patriots, 2009-10-04",
+                "american_football.football_game.receiving-american_football.game_receiving_statistics.team",
+                "Baltimore Ravens"
+            ],
+            [
+                "New York Giants",
+                "award.award_winner.awards_won-award.award_honor.award_winner",
+                "New England Patriots"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XIV"
+            ],
+            [
+                "Super Bowl",
+                "freebase.valuenotation.has_no_value",
+                "Date of final occurrence"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.passing-american_football.game_passing_statistics.game",
+                "Baltimore Ravens at New York Giants, 2008-11-16"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XVIII"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XXVI"
+            ],
+            [
+                "Super Bowl",
+                "type.object.type",
+                "Abstract"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.nfl_game.week",
+                "11"
+            ],
+            [
+                "Super Bowl",
+                "freebase.valuenotation.is_reviewed",
+                "Date of first occurrence"
+            ],
+            [
+                "Super Bowl",
+                "common.topic.notable_types",
+                "Sports League Championship"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "Super Bowl XXI"
+            ],
+            [
+                "New York Giants",
+                "award.award_nominee.award_nominations-award.award_nomination.year",
+                "2010"
+            ],
+            [
+                "New York Giants",
+                "award.award_winner.awards_won-award.award_honor.award_winner",
+                "Philadelphia Eagles"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "2012 NFC Championship Game"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at Miami Dolphins, 2009-01-04"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XLIV"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at Pittsburgh Steelers, 2009-01-18"
+            ],
+            [
+                "Super Bowl",
+                "sports.sports_championship.events",
+                "Super Bowl XLVII"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "NFL Game"
+            ],
+            [
+                "2012 NFC Championship Game",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.rushing-american_football.game_rushing_statistics.touchdowns",
+                "0"
+            ],
+            [
+                "Super Bowl XXXV",
+                "sports.sports_championship_event.champion",
+                "Baltimore Ravens"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.passing-american_football.game_passing_statistics.completions",
+                "20"
+            ],
+            [
+                "2001 NFC Championship Game",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "New York Giants",
+                "award.award_winner.awards_won-award.award_honor.year",
+                "2011"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "2008 NFC Championship Game"
+            ],
+            [
+                "Super Bowl XLII",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XLI"
+            ],
+            [
+                "Baltimore Ravens at New England Patriots, 2010-01-10",
+                "common.topic.notable_types",
+                "NFL Game"
+            ],
+            [
+                "Baltimore Ravens at New England Patriots, 2009-10-04",
+                "common.topic.notable_types",
+                "NFL Game"
+            ],
+            [
+                "Super Bowl",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.away_team",
+                "Baltimore Ravens"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XI"
+            ],
+            [
+                "Baltimore Ravens",
+                "sports.sports_team.season_record-sports.sports_team_season_record.season",
+                "2002 NFL season"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XXXV"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.receiving-american_football.game_receiving_statistics.receptions",
+                "4"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at Dallas Cowboys, 2008-12-20"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.receiving-american_football.game_receiving_statistics.team",
+                "New York Giants"
+            ],
+            [
+                "1927 NFL Championship Game",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "time.event.start_date",
+                "2008-11-16"
+            ],
+            [
+                "Baltimore Ravens at New England Patriots, 2010-01-10",
+                "american_football.football_game.receiving-american_football.game_receiving_statistics.team",
+                "Baltimore Ravens"
+            ],
+            [
+                "Super Bowl XLVII",
+                "sports.sports_championship_event.championship",
+                "Super Bowl"
+            ],
+            [
+                "Baltimore Ravens",
+                "sports.sports_team.championships",
+                "Super Bowl XXXV"
+            ],
+            [
+                "Baltimore Ravens",
+                "sports.sports_team.season_record-sports.sports_team_season_record.season",
+                "2006 NFL season"
+            ],
+            [
+                "1938 NFL Championship Game",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "Super Bowl",
+                "kg.object_profile.prominent_type",
+                "Sports League Championship"
+            ],
+            [
+                "Baltimore Ravens",
+                "sports.sports_team.season_record-sports.sports_team_season_record.season",
+                "2003 NFL season"
+            ],
+            [
+                "Super Bowl XXXV",
+                "sports.sports_championship_event.runner_up",
+                "New York Giants"
+            ],
+            [
+                "Super Bowl XLVI",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "New York Giants",
+                "american_football.football_team.home_games",
+                "Baltimore Ravens at New York Giants, 2008-11-16"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "1938 NFL Championship Game"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at Indianapolis Colts, 2010-01-16"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "Super Bowl XXV"
+            ],
+            [
+                "Baltimore Ravens at Pittsburgh Steelers, 2009-01-18",
+                "american_football.football_game.season",
+                "2008 NFL season"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.rushing-american_football.game_rushing_statistics.yards",
+                "96.0"
+            ],
+            [
+                "Baltimore Ravens",
+                "sports.sports_team.founded",
+                "1996"
+            ],
+            [
+                "Baltimore Ravens at Green Bay Packers, 2009-12-07",
+                "american_football.football_game.away_team",
+                "Baltimore Ravens"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.receiving-american_football.game_receiving_statistics.game",
+                "Baltimore Ravens at New York Giants, 2008-11-16"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XLVI"
+            ],
+            [
+                "Baltimore Ravens at New England Patriots, 2010-01-10",
+                "american_football.football_game.away_team",
+                "Baltimore Ravens"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.season",
+                "2008 NFL season"
+            ],
+            [
+                "Baltimore Ravens at New England Patriots, 2009-10-04",
+                "american_football.football_game.away_team",
+                "Baltimore Ravens"
+            ],
+            [
+                "1934 NFL Championship Game",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XLII"
+            ],
+            [
+                "2008 NFC Championship Game",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at Oakland Raiders, 2010-01-03"
+            ],
+            [
+                "Baltimore Ravens",
+                "award.award_nominee.award_nominations-award.award_nomination.year",
+                "2013"
+            ],
+            [
+                "Super Bowl",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Sports League Championship"
+            ],
+            [
+                "Super Bowl XXV",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "Pittsburgh Steelers at Baltimore Ravens, 2008-12-14",
+                "american_football.football_game.season",
+                "2008 NFL season"
+            ],
+            [
+                "Super Bowl",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Sports League Championship"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "NFL Game"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.passing-american_football.game_passing_statistics.team",
+                "Baltimore Ravens"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.rushing-american_football.game_rushing_statistics.team",
+                "Baltimore Ravens"
+            ],
+            [
+                "Baltimore Ravens",
+                "sports.sports_team.season_record-sports.sports_team_season_record.season",
+                "2004 NFL season"
+            ],
+            [
+                "Baltimore Ravens at Pittsburgh Steelers, 2009-12-27",
+                "american_football.football_game.away_team",
+                "Baltimore Ravens"
+            ],
+            [
+                "Super Bowl",
+                "freebase.valuenotation.is_reviewed",
+                "Events"
+            ],
+            [
+                "Super Bowl XXXV",
+                "time.event.instance_of_recurring_event",
+                "Super Bowl"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at New England Patriots, 2010-01-10"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "1956 NFL Championship Game"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "common.topic.notable_for-common.notable_for.object",
+                "NFL Game"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl III"
+            ],
+            [
+                "Baltimore Ravens",
+                "sports.sports_team.championships",
+                "Super Bowl XLVII"
+            ],
+            [
+                "Philadelphia Eagles at Baltimore Ravens, 2008-11-23",
+                "american_football.football_game.season",
+                "2008 NFL season"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.passing-american_football.game_passing_statistics.team",
+                "New York Giants"
+            ],
+            [
+                "Baltimore Ravens at New England Patriots, 2010-01-10",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "NFL Game"
+            ],
+            [
+                "Super Bowl",
+                "common.topic.notable_for-common.notable_for.object",
+                "Sports League Championship"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.rushing-american_football.game_rushing_statistics.team",
+                "New York Giants"
+            ],
+            [
+                "1956 NFL Championship Game",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "Super Bowl XXI",
+                "sports.sports_championship_event.champion",
+                "New York Giants"
+            ],
+            [
+                "New York Giants",
+                "sports.sports_team.championships",
+                "1934 NFL Championship Game"
+            ],
+            [
+                "Super Bowl XLVII",
+                "sports.sports_championship_event.champion",
+                "Baltimore Ravens"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at Tennessee Titans, 2009-01-10"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at Pittsburgh Steelers, 2009-12-27"
+            ],
+            [
+                "Super Bowl",
+                "time.recurring_event.instances",
+                "Super Bowl XXXVII"
+            ],
+            [
+                "Baltimore Ravens",
+                "sports.sports_team.championships",
+                "2013 AFC Championship Game"
+            ],
+            [
+                "Baltimore Ravens",
+                "american_football.football_team.away_games",
+                "Baltimore Ravens at New England Patriots, 2009-10-04"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.passing-american_football.game_passing_statistics.interceptions",
+                "2"
+            ],
+            [
+                "Baltimore Ravens at New England Patriots, 2010-01-10",
+                "common.topic.notable_for-common.notable_for.object",
+                "NFL Game"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "common.topic.notable_types",
+                "NFL Game"
+            ],
+            [
+                "Super Bowl XXXV",
+                "sports.sports_championship_event.championship",
+                "Super Bowl"
+            ],
+            [
+                "Baltimore Ravens at New York Giants, 2008-11-16",
+                "american_football.football_game.rushing-american_football.game_rushing_statistics.game",
+                "Baltimore Ravens at New York Giants, 2008-11-16"
+            ]
+        ]
+    },
+    {
+        "id": "WebQTest-654_8b3815ec57389b13892dd5abb108cc4e",
+        "question": "What is the name of the area that uses a currency called Gebel Elba?",
+        "thinking_process": "To determine the answer to the question, follow these steps:\n\n1. Start by identifying the intermediate entity \"c\", which represents the area that partially contains the query entity \"Gebel Elba\". This establishes the connection between the area in question and Gebel Elba.\n2. Next, ascertain what currency is used in the area represented by the intermediate entity \"c\". The currency used is represented by the answer entity \"x\".\n\nThus, the answer entity \"x\" represents the name of the currency used in the area that includes Gebel Elba.",
+        "answers": [
+            "Egyptian pound"
+        ],
+        "reasoning_path": [
+            [
+                "Egypt",
+                "location.location.partially_contains",
+                "Gebel Elba"
+            ],
+            [
+                "Egypt",
+                "location.country.currency_used",
+                "Egyptian pound"
+            ]
+        ],
+        "subgraph": [
+            [
+                "Gebel Elba",
+                "location.location.partially_contained_by-type.object.type",
+                "Partial containment relationship"
+            ],
+            [
+                "Sudanese dinar",
+                "finance.currency.countries_formerly_used",
+                "Sudan"
+            ],
+            [
+                "nabilagonem.jeeran.com",
+                "base.mediabase.meedan_source.location",
+                "Egypt"
+            ],
+            [
+                "Tuna el-Gebel",
+                "location.location.containedby",
+                "Egypt"
+            ],
+            [
+                "Gule",
+                "base.rosetta.local_name.locale",
+                "Sudan"
+            ],
+            [
+                "Gebel Elba",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Egypt",
+                "location.location.partiallycontains-location.partial_containment_relationship.partially_contains",
+                "Gebel Elba"
+            ],
+            [
+                "Gebel Elba",
+                "common.topic.notable_for-common.notable_for.object",
+                "Mountain"
+            ],
+            [
+                "Geba River",
+                "location.location.containedby",
+                "Africa"
+            ],
+            [
+                "Egyptian pound",
+                "finance.currency.countries_used",
+                "Gaza Strip"
+            ],
+            [
+                "Geba River",
+                "geography.river.basin_countries",
+                "Guinea-Bissau"
+            ],
+            [
+                "Gebel Elba",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Mountain"
+            ],
+            [
+                "Gebel Elba",
+                "base.schemastaging.disputed_location.claimed_by",
+                "Sudan"
+            ],
+            [
+                "elbanatayzaea.blogspot.com",
+                "base.mediabase.meedan_source.location",
+                "Egypt"
+            ],
+            [
+                "El Gebir",
+                "location.location.containedby",
+                "Kurdufan"
+            ],
+            [
+                "Egypt",
+                "location.statistical_region.gdp_nominal-measurement_unit.dated_money_value.currency",
+                "United States Dollar"
+            ],
+            [
+                "Libya",
+                "location.statistical_region.gdp_nominal-measurement_unit.dated_money_value.currency",
+                "United States Dollar"
+            ],
+            [
+                "Gebel Elba",
+                "type.object.type",
+                "Mountain"
+            ],
+            [
+                "Sudan",
+                "base.schemastaging.disputed_location_claimant.disputed_territories",
+                "Gebel Elba"
+            ],
+            [
+                "Palestinian territories",
+                "location.country.currency_used",
+                "Egyptian pound"
+            ],
+            [
+                "Egypt",
+                "base.schemastaging.disputed_location_claimant.disputed_territories",
+                "Gebel Elba"
+            ],
+            [
+                "Geba River",
+                "geography.river.basin_countries",
+                "Guinea"
+            ],
+            [
+                "Egyptian pound",
+                "finance.currency.countries_used",
+                "Palestinian territories"
+            ],
+            [
+                "Geba River",
+                "geography.river.basin_countries",
+                "Senegal"
+            ],
+            [
+                "Egyptian pound",
+                "finance.currency.countries_used",
+                "Egypt"
+            ],
+            [
+                "Gabon",
+                "location.statistical_region.external_debt_stock-measurement_unit.dated_money_value.currency",
+                "United States Dollar"
+            ],
+            [
+                "Gabon",
+                "location.statistical_region.gni_in_ppp_dollars-measurement_unit.dated_money_value.currency",
+                "United States Dollar"
+            ],
+            [
+                "Gebel Elba",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Mountain"
+            ],
+            [
+                "El Gebir",
+                "location.location.containedby",
+                "North Kurdufan"
+            ],
+            [
+                "El Gebir",
+                "location.location.containedby",
+                "Sudan"
+            ],
+            [
+                "Sudan",
+                "location.location.contains",
+                "El Gebir"
+            ],
+            [
+                "Gbaya",
+                "base.rosetta.local_name.locale",
+                "Sudan"
+            ],
+            [
+                "Africa",
+                "location.location.contains",
+                "Geba River"
+            ],
+            [
+                "Gabon",
+                "location.statistical_region.gdp_nominal_per_capita-measurement_unit.dated_money_value.currency",
+                "United States Dollar"
+            ],
+            [
+                "Gebelein",
+                "location.location.containedby",
+                "Egypt"
+            ],
+            [
+                "Gebel Elba",
+                "geography.mountain.elevation",
+                "1435.0"
+            ],
+            [
+                "Egypt",
+                "location.location.partially_contains",
+                "Gebel Elba"
+            ],
+            [
+                "Gula",
+                "base.rosetta.local_name.locale",
+                "Sudan"
+            ],
+            [
+                "Sudan",
+                "location.country.currency_formerly_used",
+                "Sudanese dinar"
+            ],
+            [
+                "Gabon",
+                "location.statistical_region.official_development_assistance-measurement_unit.dated_money_value.currency",
+                "United States Dollar"
+            ],
+            [
+                "Gebel Elba",
+                "type.object.type",
+                "Inanimate"
+            ],
+            [
+                "Gabon",
+                "location.statistical_region.gdp_nominal-measurement_unit.dated_money_value.currency",
+                "United States Dollar"
+            ],
+            [
+                "Gaza Strip",
+                "location.country.currency_used",
+                "Egyptian pound"
+            ],
+            [
+                "gharbeia.net",
+                "base.mediabase.meedan_source.location",
+                "Egypt"
+            ],
+            [
+                "Gebel Elba",
+                "location.location.partially_contained_by-location.partial_containment_relationship.partially_contained_by",
+                "Egypt"
+            ],
+            [
+                "Gebel Elba",
+                "type.object.type",
+                "Location"
+            ],
+            [
+                "Gebel Elba",
+                "freebase.valuenotation.has_value",
+                "Prominence"
+            ],
+            [
+                "Gebel Elba",
+                "base.schemastaging.disputed_location.claimed_by",
+                "Egypt"
+            ],
+            [
+                "Sudanese pound",
+                "finance.currency.countries_used",
+                "Sudan"
+            ],
+            [
+                "Gabon",
+                "location.statistical_region.gdp_real-measurement_unit.adjusted_money_value.adjustment_currency",
+                "United States Dollar"
+            ],
+            [
+                "Africa",
+                "location.location.contains",
+                "Gebel Elba"
+            ],
+            [
+                "Gebel Elba",
+                "kg.object_profile.prominent_type",
+                "Mountain"
+            ],
+            [
+                "Sudan",
+                "location.country.currency_used",
+                "Sudanese pound"
+            ],
+            [
+                "Gebel Elba",
+                "common.topic.notable_types",
+                "Mountain"
+            ],
+            [
+                "Gebel Elba",
+                "type.object.type",
+                "Geographical Feature"
+            ],
+            [
+                "Gebel Elba",
+                "type.object.type",
+                "Disputed location"
+            ],
+            [
+                "Gebel Elba",
+                "location.location.geolocation-location.geocode.longitude",
+                "36.3706"
+            ],
+            [
+                "Gebel Elba",
+                "location.location.partially_containedby",
+                "Egypt"
+            ],
+            [
+                "Gebel Elba",
+                "location.location.containedby",
+                "Africa"
+            ],
+            [
+                "El Gebir",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "City/Town/Village"
+            ],
+            [
+                "Egypt",
+                "location.country.currency_used",
+                "Egyptian pound"
+            ],
+            [
+                "Gebel Elba",
+                "location.location.geolocation-location.geocode.latitude",
+                "22.1878"
+            ],
+            [
+                "Gebel Elba",
+                "location.location.partially_contained_by-location.partial_containment_relationship.partially_contains",
+                "Gebel Elba"
+            ],
+            [
+                "Gebel Elba",
+                "location.location.geolocation-type.object.type",
+                "Geocode"
+            ]
+        ]
+    },
+    {
+        "id": "WebQTest-542_9131e49190aad60dc4fbd564e78cf5d5",
+        "question": "In which American Southern City did the \"Downs\" composer die?",
+        "thinking_process": "To determine the answer to the question, follow these steps:\n\n1. Begin by identifying the composer, represented by the intermediate entity \"c\", who composed the query entity \"Downs\". This step establishes the connection between the composition \"Downs\" and its composer, intermediate entity \"c\".\n\n2. Next, identify the location where the composer, represented by the intermediate entity \"c\", died. This location is represented by the answer entity \"x\".\n\nThus, the answer entity \"x\" represents the American Southern city in which the composer of \"Downs\" died.",
+        "answers": [
+            "New Orleans"
+        ],
+        "reasoning_path": [
+            [
+                "Alex Chilton",
+                "music.composer.compositions",
+                "Downs"
+            ],
+            [
+                "Alex Chilton",
+                "people.deceased_person.place_of_death",
+                "New Orleans"
+            ]
+        ],
+        "subgraph": [
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "Way Down Yonder in New Orleans"
+            ],
+            [
+                "Downs",
+                "music.composition.recordings",
+                "Downs (demo)"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "Blues in the South"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "Charlestown, South Carolina"
+            ],
+            [
+                "Down South Blues",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Downs",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Composition"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "From Memphis to New Orleans"
+            ],
+            [
+                "Ethel McCoy",
+                "music.composer.compositions",
+                "Way Down South"
+            ],
+            [
+                "Downs",
+                "music.composition.recordings",
+                "Downs"
+            ],
+            [
+                "Downs",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Downs",
+                "music.composition.language",
+                "English Language"
+            ],
+            [
+                "Way Down South",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Composition"
+            ],
+            [
+                "Downs",
+                "type.object.type",
+                "Composition"
+            ],
+            [
+                "Turner Layton",
+                "music.composer.compositions",
+                "Way Down Yonder in New Orleans"
+            ],
+            [
+                "Lee Dorsey",
+                "people.deceased_person.place_of_death",
+                "New Orleans"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "Downs"
+            ],
+            [
+                "Downs",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Composition"
+            ],
+            [
+                "Downs",
+                "media_common.cataloged_instance.iswc",
+                "T-072.318.333-2"
+            ],
+            [
+                "Deep South",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Composition"
+            ],
+            [
+                "Deep South",
+                "music.composition.recordings",
+                "Deep South"
+            ],
+            [
+                "Way Down Yonder in New Orleans",
+                "music.composition.lyricist",
+                "Henry Creamer"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "Where the Blues Were Born in New Orleans"
+            ],
+            [
+                "Way Down Yonder in New Orleans",
+                "music.composition.recordings",
+                "'way Down Yonder in New Orleans"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "Mississippi"
+            ],
+            [
+                "Way Down South",
+                "music.composition.composer",
+                "Ethel McCoy"
+            ],
+            [
+                "Downs",
+                "kg.object_profile.prominent_type",
+                "Composition"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "Memphis Tennessee"
+            ],
+            [
+                "Down",
+                "music.artist.origin",
+                "New Orleans"
+            ],
+            [
+                "Way Down Yonder in New Orleans",
+                "type.object.type",
+                "Composition"
+            ],
+            [
+                "Downs",
+                "music.composition.composer",
+                "Alex Chilton"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "City of New Orleans"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "New Orleans"
+            ],
+            [
+                "Downs",
+                "common.topic.notable_types",
+                "Composition"
+            ],
+            [
+                "Downs",
+                "type.object.type",
+                "Inanimate"
+            ],
+            [
+                "Downs",
+                "type.object.type",
+                "Abstract"
+            ],
+            [
+                "Downtown",
+                "music.recording.artist",
+                "Alex Chilton"
+            ],
+            [
+                "Memphis",
+                "location.location.people_born_here",
+                "Alex Chilton"
+            ],
+            [
+                "Blues in the South",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Composition"
+            ],
+            [
+                "Deep South USA",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "Memphis, Tennessee"
+            ],
+            [
+                "From Memphis to New Orleans",
+                "music.composition.composer",
+                "Curtis Gordon"
+            ],
+            [
+                "Alex Chilton",
+                "music.composer.compositions",
+                "Downs"
+            ],
+            [
+                "Way Down Yonder in New Orleans",
+                "music.composition.composer",
+                "Turner Layton"
+            ],
+            [
+                "Downs",
+                "music.composition.form",
+                "Song"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "Deep South"
+            ],
+            [
+                "Downs",
+                "common.topic.notable_for-common.notable_for.object",
+                "Composition"
+            ],
+            [
+                "Way Down South",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Composition"
+            ],
+            [
+                "Downs (demo)",
+                "music.recording.song",
+                "Downs"
+            ],
+            [
+                "Alex Chilton",
+                "people.deceased_person.place_of_death",
+                "New Orleans"
+            ],
+            [
+                "Deep South",
+                "music.composition.composer",
+                "Martin Glover"
+            ],
+            [
+                "Martin Glover",
+                "music.composer.compositions",
+                "Deep South"
+            ],
+            [
+                "Song",
+                "music.compositional_form.compositions",
+                "Southern Man"
+            ],
+            [
+                "Way Down Yonder in New Orleans",
+                "kg.object_profile.prominent_type",
+                "Composition"
+            ],
+            [
+                "Downs",
+                "music.recording.song",
+                "Downs"
+            ],
+            [
+                "Mississippi Fred McDowell",
+                "people.deceased_person.place_of_death",
+                "Memphis"
+            ]
+        ]
+    },
+    {
+        "id": "WebQTest-185_b96b735d1d754f27bc8986b614669f7b",
+        "question": "What kind of government does the location of the movie \"Amen\" have?",
+        "thinking_process": "To determine the answer to the question, follow these steps:\n\n1. Start by identifying the location represented by the intermediate entity \"c\" that is featured in the movie titled \"Amen\", which is the query entity. This step establishes the specific location associated with the movie.\n2. Next, determine the kind of government associated with the location represented by the intermediate entity \"c\". This form of government is represented by the answer entity \"x\".\n\nThus, the answer entity \"x\" represents the type of government of the location that features in the movie \"Amen\".",
+        "answers": [
+            "Semi-presidential system",
+            "Unitary state",
+            "Constitutional republic"
+        ],
+        "reasoning_path": [
+            [
+                "France",
+                "film.film_location.featured_in_films",
+                "Amen"
+            ],
+            [
+                "France",
+                "location.country.form_of_government",
+                "Unitary state"
+            ],
+            [
+                "France",
+                "location.country.form_of_government",
+                "Semi-presidential system"
+            ],
+            [
+                "France",
+                "location.country.form_of_government",
+                "Constitutional republic"
+            ]
+        ],
+        "subgraph": [
+            [
+                "Amen",
+                "film.film.release_date_s-type.object.type",
+                "Film regional release date"
+            ],
+            [
+                "Amin",
+                "film.film.country",
+                "South Korea"
+            ],
+            [
+                "Amen",
+                "film.film.starring-film.performance.actor",
+                "Kim Ye-na"
+            ],
+            [
+                "Amen",
+                "film.film.genre",
+                "Satire"
+            ],
+            [
+                "Amen.",
+                "film.film.starring-type.object.type",
+                "Film performance"
+            ],
+            [
+                "Amen.",
+                "type.object.type",
+                "Film"
+            ],
+            [
+                "Amen",
+                "film.film.film_festivals",
+                "2011 Busan International Film Festival"
+            ],
+            [
+                "Despotic small republic",
+                "film.film.country",
+                "South Korea"
+            ],
+            [
+                "AMEN!",
+                "type.object.type",
+                "Film"
+            ],
+            [
+                "Amen",
+                "film.film.starring-film.performance.character",
+                "Gas-masked rapist"
+            ],
+            [
+                "Amen",
+                "imdb.topic.title_id",
+                "tt2086799"
+            ],
+            [
+                "Amen.",
+                "film.film.country",
+                "France"
+            ],
+            [
+                "Government Mappillai",
+                "film.film.genre",
+                "World cinema"
+            ],
+            [
+                "Amen",
+                "common.topic.notable_for-common.notable_for.object",
+                "Film"
+            ],
+            [
+                "Amen.",
+                "film.film.traileraddict_id",
+                "amen"
+            ],
+            [
+                "Amen.",
+                "film.film.release_date_s-film.film_regional_release_date.film_release_distribution_medium",
+                "Theatrical"
+            ],
+            [
+                "Amen.",
+                "film.film.directed_by",
+                "Costa-Gavras"
+            ],
+            [
+                "Amen",
+                "common.topic.notable_for-common.notable_for.display_name",
+                "Film"
+            ],
+            [
+                "Amen",
+                "film.film.starring-type.object.type",
+                "Film performance"
+            ],
+            [
+                "Amen",
+                "film.film.release_date_s-film.film_regional_release_date.film",
+                "Amen"
+            ],
+            [
+                "Amen",
+                "freebase.valuenotation.has_no_value",
+                "Prequel"
+            ],
+            [
+                "Amen",
+                "imdb.topic.title_id",
+                "tt2786278"
+            ],
+            [
+                "Amen",
+                "type.object.type",
+                "Film"
+            ],
+            [
+                "Amen",
+                "freebase.valuenotation.has_no_value",
+                "Film Series"
+            ],
+            [
+                "South Korea",
+                "location.country.form_of_government",
+                "Constitutional republic"
+            ],
+            [
+                "Amen",
+                "film.film.country",
+                "South Korea"
+            ],
+            [
+                "Amen",
+                "freebase.valuenotation.has_no_value",
+                "Sequel"
+            ],
+            [
+                "Amen",
+                "film.film.directed_by",
+                "Kim Ki-duk"
+            ],
+            [
+                "Amen",
+                "film.film.starring-film.performance.actor",
+                "Kim Ki-duk"
+            ],
+            [
+                "Amen",
+                "common.topic.notable_for-type.object.type",
+                "notable_for"
+            ],
+            [
+                "Amen",
+                "film.film.release_date_s-film.film_regional_release_date.film_release_distribution_medium",
+                "Theatrical"
+            ],
+            [
+                "AMEN!",
+                "film.film.release_date_s-film.film_regional_release_date.film_release_region",
+                "United States of America"
+            ],
+            [
+                "Amn Dawlat",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Film"
+            ],
+            [
+                "South Korea",
+                "location.country.form_of_government",
+                "Unitary state"
+            ],
+            [
+                "Amen.",
+                "film.film.country",
+                "Romania"
+            ],
+            [
+                "Amen",
+                "film.film.release_date_s-film.film_regional_release_date.film_release_region",
+                "South Korea"
+            ],
+            [
+                "Amen.",
+                "film.film.featured_film_locations",
+                "Romania"
+            ],
+            [
+                "Amen",
+                "film.film.starring-film.performance.character",
+                "the girl"
+            ],
+            [
+                "Amen",
+                "film.film.edited_by",
+                "Kim Ki-duk"
+            ],
+            [
+                "Amen",
+                "common.topic.notable_for-common.notable_for.notable_object",
+                "Film"
+            ],
+            [
+                "Amen.",
+                "imdb.topic.title_id",
+                "tt0280653"
+            ],
+            [
+                "Amen.",
+                "film.film.release_date_s-film.film_regional_release_date.film_release_region",
+                "United States of America"
+            ],
+            [
+                "Amen",
+                "film.film.genre",
+                "Malayalam Cinema"
+            ],
+            [
+                "Amen",
+                "film.film.cinematography",
+                "Kim Ki-duk"
+            ],
+            [
+                "Amen",
+                "film.film.written_by",
+                "Kim Ki-duk"
+            ],
+            [
+                "Amen",
+                "imdb.topic.title_id",
+                "tt1708376"
+            ],
+            [
+                "Amen",
+                "film.film.starring-film.performance.film",
+                "Amen"
+            ],
+            [
+                "Amen",
+                "film.film.genre",
+                "Drama"
+            ],
+            [
+                "Amen",
+                "film.film.release_date_s-film.film_regional_release_date.film_regional_debut_venue",
+                "2011 Busan International Film Festival"
+            ],
+            [
+                "Amen",
+                "kg.object_profile.prominent_type",
+                "Film"
+            ],
+            [
+                "Aman",
+                "film.film.genre",
+                "World cinema"
+            ],
+            [
+                "Amen",
+                "common.topic.notable_types",
+                "Film"
+            ],
+            [
+                "Amanaat",
+                "film.film.genre",
+                "World cinema"
+            ],
+            [
+                "Amen",
+                "film.film.country",
+                "India"
+            ],
+            [
+                "AMEN!",
+                "film.film.country",
+                "Germany"
+            ],
+            [
+                "Amen",
+                "film.film.genre",
+                "East Asian cinema"
+            ],
+            [
+                "Amen",
+                "type.object.type",
+                "Abstract"
+            ],
+            [
+                "Amen",
+                "film.film.genre",
+                "World cinema"
+            ],
+            [
+                "Amen.",
+                "film.film.release_date_s-type.object.type",
+                "Film regional release date"
+            ],
+            [
+                "Amen",
+                "film.film.language",
+                "Korean Language"
+            ],
+            [
+                "Amn Dawlat",
+                "common.topic.notable_for-common.notable_for.object",
+                "Film"
+            ],
+            [
+                "Amen",
+                "film.film.produced_by",
+                "Kim Ki-duk"
+            ],
+            [
+                "Amen.",
+                "film.film.country",
+                "Germany"
+            ],
+            [
+                "Amen",
+                "film.film.featured_film_locations",
+                "France"
+            ],
+            [
+                "France",
+                "film.film_location.featured_in_films",
+                "Amen"
+            ],
+            [
+                "France",
+                "location.country.form_of_government",
+                "Unitary state"
+            ],
+            [
+                "France",
+                "location.country.form_of_government",
+                "Semi-presidential system"
+            ],
+            [
+                "France",
+                "location.country.form_of_government",
+                "Constitutional republic"
+            ]
+        ]
+    }
+]
