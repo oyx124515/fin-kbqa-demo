@@ -91,7 +91,7 @@ export function Sidebar({
 						);
 					})
 				) : (
-					<div className="empty-state-small">没有匹配的对话记录。</div>
+					<div className="empty-state-small">无对话记录</div>
 				)}
 			</div>
 		</aside>

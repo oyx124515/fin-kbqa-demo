@@ -40,6 +40,7 @@ type ActiveStream = {
 
 const STREAM_TICK_MS = 28;
 const STREAM_CHARS_PER_TICK = 6;
+const RECOMMENDED_COUNT = 6;
 
 function buildInitialSessions(exampleQa: QaItem[]) {
 	return Object.fromEntries(
@@ -74,6 +75,27 @@ function buildInitialChatList(exampleQa: QaItem[]) {
 	return exampleQa.map((qa) => makeChatListItem(qa.id, qa.question, "example"));
 }
 
+function pickRecommendedQuestions(
+	allQa: QaItem[],
+	exampleQa: QaItem[],
+	count = RECOMMENDED_COUNT,
+) {
+	const exampleIds = new Set(exampleQa.map((item) => item.id));
+	const preferred = allQa.filter((item) => !exampleIds.has(item.id));
+	const source = preferred.length > 0 ? preferred : allQa;
+	const shuffled = [...source];
+
+	for (let index = shuffled.length - 1; index > 0; index -= 1) {
+		const swapIndex = Math.floor(Math.random() * (index + 1));
+		[shuffled[index], shuffled[swapIndex]] = [
+			shuffled[swapIndex],
+			shuffled[index],
+		];
+	}
+
+	return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
 function getLatestGraphPayload(
 	messages: ChatMessage[],
 	qaById: Map<string, QaItem>,
@@ -89,6 +111,8 @@ function getLatestGraphPayload(
 
 export function FinKgApp({ allQa, exampleQa, recommendedQa }: FinKgAppProps) {
 	const [selectedChatId, setSelectedChatId] = useState<string | null>(null);
+	const [recommendedQuestions, setRecommendedQuestions] =
+		useState<QaItem[]>(recommendedQa);
 	const [chatList, setChatList] = useState<ChatListItem[]>(() =>
 		buildInitialChatList(exampleQa),
 	);
@@ -343,6 +367,10 @@ export function FinKgApp({ allQa, exampleQa, recommendedQa }: FinKgAppProps) {
 		openSession(id);
 	};
 
+	const handleRefreshRecommended = () => {
+		setRecommendedQuestions(pickRecommendedQuestions(allQa, exampleQa));
+	};
+
 	const handleShowGraph = (qaId: string) => {
 		const qa = qaById.get(qaId);
 		if (!qa) {
@@ -472,11 +500,12 @@ export function FinKgApp({ allQa, exampleQa, recommendedQa }: FinKgAppProps) {
 										onComposerSubmit={() =>
 											submitQuestion(composerValue, "manual")
 										}
+										onRefreshRecommended={handleRefreshRecommended}
 										onRetry={handleRetry}
 										onSelectQuestion={handleSelectRecommended}
 										onShowGraph={handleShowGraph}
 										qaById={qaById}
-										recommendedQa={recommendedQa}
+										recommendedQa={recommendedQuestions}
 										sessionId={currentSession.id}
 									/>
 								) : (
@@ -486,7 +515,8 @@ export function FinKgApp({ allQa, exampleQa, recommendedQa }: FinKgAppProps) {
 										onComposerSubmit={() =>
 											submitQuestion(composerValue, "manual")
 										}
-										recommendedQa={recommendedQa}
+										onRefreshRecommended={handleRefreshRecommended}
+										recommendedQa={recommendedQuestions}
 										onSelectQuestion={handleSelectRecommended}
 									/>
 								)}

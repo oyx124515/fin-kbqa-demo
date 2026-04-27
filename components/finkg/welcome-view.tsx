@@ -4,6 +4,7 @@ import {
 	BadgeHelp,
 	ChartNoAxesCombined,
 	Network,
+	RotateCw,
 	Sparkles,
 	Star,
 } from "lucide-react";
@@ -13,6 +14,7 @@ import type { QaItem } from "@/components/finkg/types";
 
 type WelcomeViewProps = {
 	recommendedQa: QaItem[];
+	onRefreshRecommended: () => void;
 	onSelectQuestion: (qa: QaItem) => void;
 	composerValue: string;
 	onComposerChange: (value: string) => void;
@@ -28,6 +30,7 @@ const features = [
 
 export function WelcomeView({
 	recommendedQa,
+	onRefreshRecommended,
 	onSelectQuestion,
 	composerValue,
 	onComposerChange,
@@ -66,9 +69,19 @@ export function WelcomeView({
 			</div>
 
 			<div className="bottom-zone sticky">
-				<div className="section-head">
-					<Star size={18} />
-					推荐问题
+				<div className="section-head section-head-between">
+					<div className="section-head-label">
+						<Star size={18} />
+						推荐问题
+					</div>
+					<button
+						className="secondary-button secondary-button-compact"
+						type="button"
+						onClick={onRefreshRecommended}
+					>
+						<RotateCw size={15} />
+						刷新
+					</button>
 				</div>
 				<div className="chips">
 					{recommendedQa.map((qa) => (

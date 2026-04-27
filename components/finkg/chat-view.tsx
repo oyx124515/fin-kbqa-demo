@@ -1,6 +1,6 @@
 "use client";
 
-import { Copy, GitBranch, RotateCcw, Sparkles } from "lucide-react";
+import { Copy, GitBranch, RotateCcw, RotateCw, Sparkles } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 import { Composer } from "@/components/finkg/composer";
@@ -11,6 +11,7 @@ type ChatViewProps = {
 	messages: ChatMessage[];
 	qaById: Map<string, QaItem>;
 	recommendedQa: QaItem[];
+	onRefreshRecommended: () => void;
 	onSelectQuestion: (qa: QaItem) => void;
 	onShowGraph: (qaId: string) => void;
 	onRetry: (qaId: string) => void;
@@ -24,6 +25,7 @@ export function ChatView({
 	messages,
 	qaById,
 	recommendedQa,
+	onRefreshRecommended,
 	onSelectQuestion,
 	onShowGraph,
 	onRetry,
@@ -197,9 +199,19 @@ export function ChatView({
 			</div>
 
 			<div className="bottom-zone sticky">
-				<div className="section-head">
-					<Sparkles size={18} />
-					推荐问题
+				<div className="section-head section-head-between">
+					<div className="section-head-label">
+						<Sparkles size={18} />
+						推荐问题
+					</div>
+					<button
+						className="secondary-button secondary-button-compact"
+						type="button"
+						onClick={onRefreshRecommended}
+					>
+						<RotateCw size={15} />
+						刷新
+					</button>
 				</div>
 				<div className="chips">
 					{recommendedQa.map((qa) => (

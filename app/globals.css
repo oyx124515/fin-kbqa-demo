@@ -455,6 +455,16 @@ a {
 	font-weight: 700;
 }
 
+.section-head-between {
+	justify-content: space-between;
+}
+
+.section-head-label {
+	display: inline-flex;
+	align-items: center;
+	gap: 10px;
+}
+
 .chips {
 	display: flex;
 	flex-wrap: wrap;
@@ -694,6 +704,11 @@ a {
 	background: rgba(255, 255, 255, 0.84);
 	color: var(--accent);
 	padding: 10px 14px;
+}
+
+.secondary-button-compact {
+	padding: 8px 12px;
+	font-size: 0.92rem;
 }
 
 .streaming-indicator {
